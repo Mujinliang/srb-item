@@ -1,0 +1,15 @@
+server:
+  port: 8130 # 服务端口
+
+spring:
+  profiles:
+    active: dev # 环境设置
+  application:
+    name: service-oss # 服务名
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-shanghai.aliyuncs.com
+    keyId: LTAI5tM7csD2aZvnZwTgMJzi
+    keySecret: H6wdXHP4xuhv9oETL8EchH0odKtRSc
+    bucketName: nawiew
